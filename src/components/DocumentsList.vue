@@ -442,8 +442,14 @@ export default {
 
           margin-right: 0;
         }
-        [title="delete"] {
-          color: rgba(196, 53, 67, .78);
+        [title="edit"]:hover {
+          color: rgba(30, 209, 54, .8);
+        }
+        [title="delete"]:hover {
+          color: rgba(196, 53, 67, .8);
+        }
+        [title="move"]:hover {
+          color: rgba(17, 76, 223, .8);
         }
 
         .icon {
